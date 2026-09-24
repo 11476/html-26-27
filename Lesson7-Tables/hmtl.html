@@ -3,53 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Grades</title>
+    <title>Comparisons</title>
 </head>
 <body>
-    <h1>Student Grades</h1>
-    <table border="1">
+    <table border="1" align="center">
+        <caption>Shoe comparison</caption>
         <thead>
             <tr>
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-                <th>4</th>
-                <th>5</th>
-                <th>6</th>
-                <th>7</th>
-                <th>8</th>
+                <th>Cat.</th>
+                <th>Detail</th>
+                <th>Nike</th>
+                <th>Adidas</th>
+                <th>NB</th>
             </tr>
         </thead>
-        <tr>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>10</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>10</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>10</td>
-        </tr>
+        <tbody>
+            <tr>
+                <td rowspan="3">Cost</td>
+                <td align="center">List price</td>
+                <td align="center">$80</td>
+                <td align="center">$90</td>
+                <td align="center">$112</td>
+            </tr>
+            <tr>
+                <td align="center">Sale Price</td>
+                <td align="center">$75</td>
+                <td align="center">$85</td>
+                <td align="center">$90</td>
+            </tr>
+            <tr>
+                <td align="center">Tax</td>
+                <td align="center">$3</td>
+                <td align="center">$4</td>
+                <td align="center">$5</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Quality</td>
+                <td align="center">Weight</td>
+                <td align="center">8 oz</td>
+                <td align="center">6.5 oz</td>
+                <td align="center">7 oz</td>
+            </tr>
+            <tr>
+                <td align="center">Comfort</td>
+                <td align="center">Medium</td>
+                <td align="center">Medium</td>
+                <td align="center">High</td>
+            </tr>
+            <tr>
+                <td align="center">Verdict</td>
+                <td colspan="4">Adidas is the lightest, Nike is the most inexpensive, and New Balance is the most comforting. What you prioritize dictates the choice.</td>
+            </tr>
+        </tbody>
+        <tfoot><tr><td colspan="5">Comparison of shoe brands</td></tr></tfoot>
     </table>
 </body>
 </html>
