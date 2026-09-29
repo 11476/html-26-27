@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+<h1>Club Sign-Up</h1>
+<form action="https://bergentechcs.org" method="get">
+    <label for="1">Full Name </label><input type="text" id="1" name="Fullname" required><br>
+    <label for="2">Email </label><input type="email" id="2" name="email" required aria-required="true"><br>
+    <label for="3">Date you can start</label><input type="date" id="3" name="Date"><br>
+    <label for="4">Age:</label><input type="number" name="age" id="4" min="13" max="200000"><br>
+    <fieldset>
+        <legend>select yr'oue grade level</legend>
+        <label for="5">Grade 9</label>
+        <input type="radio" name="gradelevel" id="5">
+        <label for="6">Grade 10</label>
+        <input type="radio" name="gradelevel" id="6">
+        <label for="7">Grade 11</label>
+        <input type="radio" name="gradelevel" id="7">
+
+        <label for="8">Grade 12</label>
+        <select name="" id="">
+            <optgroup>
+                <option value="01">Per 01</option>
+                <option value="02">Per 02</option>
+                <option value="03">Per 03</option>
+                <option value="04">Per 04</option>
+                <option value="05">Per 05</option>
+                <option value="06">Per 06</option>
+                <option value="07">Per 07</option>
+                <option value="08">Per 08</option>
+                <option value="09">Per 09</option>
+                <option value="10">Per 10</option>
+                <option value="11">Per 11</option>
+                <option value="12">Per 12</option>
+            </optgroup>
+            <optgroup>
+                <option value="a01">Per 01</option>
+                <option value="a02">Per 02</option>
+                <option value="a03">Per 03</option>
+                <option value="a04">Per 04</option>
+                <option value="a05">Per 05</option>
+                <option value="a06">Per 06</option>
+                <option value="a07">Per 07</option>
+                <option value="a08">Per 08</option>
+                <option value="a09">Per 09</option>
+                <option value="a10">Per 10</option>
+                <option value="a11">Per 11</option>
+                <option value="a12">Per 12</option>
+            </optgroup>
+        </select>
+    </fieldset>
+    <button type="submit">SUBMIT !!! <strong>SUBMITT!!!</strong></button>
+</form>
+</body>
+</html>
