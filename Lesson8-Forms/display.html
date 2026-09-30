@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <script>
+        const query = window.location.search
+    query.split('&').map(p => {
+      const [key, value] = p.split('=');
+      document.getElementById("key").innerHTML = `value`;
+        })();
+    </script>
+</head>
+<body>
+    FULL NAME: <h1 id="fullname"></h1>
+    AGE <h2 id="age"></h2>
+    Grade level <h3 id="gradelevel"></h3>
+    WHY?! <h4 id="a"></h4>
+    Days you can suffer: <h5 id="days"></h5>
+    Date: <h6 id="date"></h6>
+</body>
+</html>
