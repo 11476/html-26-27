@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>l9 containers</title>
+    <style>
+        *{
+            /* resize: both; */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            /* overflow: auto; */
+        }
+        body{background-image: url("https://static.vecteezy.com/system/resources/previews/013/887/544/non_2x/3d-187-number-font-alphabet-white-3d-number-187-with-yellow-background-free-vector.jpg");}
+        .highlight::first-letter{
+            font-size: xx-large;
+            color:rgb(66, 66, 24);
+        }
+        #site-footer{
+            color: lightgoldenrodyellow;
+        }
+        .card{
+            background-color:  rgba(250, 250, 210, 0.155);
+            backdrop-filter: blur(10px);
+            color: tomato;
+            
+            border: 2px solid tomato;
+            border-radius: 6vmin;
+        }
+        .special{
+            font-size: xx-large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        /* #banana{
+            position: relative;
+            width:100vw;
+            height: 100vh;
+            overflow: auto;
+        }
+        #banana *{
+            position: absolute;
+             border: 2px inset tomato;
+             top:30px;
+             left:30px;
+             width:12vmin;
+             height:12vmin;
+        } */
+    </style>
+</head>
+<body>
+    <div id="banana">
+        <div class="card">
+            <div class="card">
+                <p class="highlight">First note</p>
+                <p class="highlight">Second note</p>
+                <p class="highlight">Third note</p>
+            </div>
+        </div>
+            <div class="card">
+                <h2>Product A</h2>
+                <p>Price is <span class="special card">$29</span> today only</p>
+            </div>
+            <div class="card">
+                <h2>Product B</h2>
+               <p>Price is <span class="special card">$2900</span> today only</p>
+            </div>
+            <!-- <footer id="site-footer"> &copy; banna</footer> -->
+    </div>
+</body>
+</html>
